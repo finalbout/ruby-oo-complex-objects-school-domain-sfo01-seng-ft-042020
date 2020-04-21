@@ -26,7 +26,6 @@ class School
     end
 
     def sort
-        binding.pry
         self.roster.each {|grade, student_name| student_name.sort!}
     end
 
