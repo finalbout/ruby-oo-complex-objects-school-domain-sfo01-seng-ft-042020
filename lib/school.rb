@@ -27,7 +27,7 @@ class School
 
     def sort
         binding.pry
-        self.roster.select {|grade, student_name| student_name.sort!}
+        self.roster.each {|grade, student_name| student_name.sort!}
     end
 
 end
