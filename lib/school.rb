@@ -2,7 +2,6 @@
 # code here!
 class School
     attr_reader :school_name #:roster
-    
 
     def initialize(school_name)
         @school_name = school_name
@@ -27,5 +26,4 @@ class School
     def sort
         self.roster.each {|grade, student_name| student_name.sort!}
     end
-
 end
